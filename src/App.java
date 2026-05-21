@@ -6,7 +6,13 @@ public class App {
         System.out.println(usuarioWesley);
 
         Usuario usuariomaria = new Usuario("Maria", "Maria@email.com", "147852");
-        System.out.println(usuariomaria);
+        System.out.println(usuariomaria.getNomeComEmail());
+
+
+
+        usuariomaria.setEmail("maria123@gmail.com");
+        System.out.println(usuariomaria.getNomeComEmail());
+        System.out.println(usuariomaria.getNome());
 
 
         /*
